@@ -1,0 +1,32 @@
+import java.util.Random;
+import java.util.Scanner;
+public class Game{
+	public static void main(String[] args) {
+	Scanner input = new Scanner(System.in);
+	
+	Random computerInput = new Random();
+	int num = input.nextInt();
+
+	System.out.print("Enter a number between 1 and 10: ");
+	int number = input.nextInt();
+
+	
+	if(number == num){
+	System.out.printf("You get the number %s", "Correct");
+}
+	else if(number < num){
+	System.out.printf("The number you enterted is small %s", "Too small");
+
+}
+	else if(number > num){
+	System.out.printf("the number you enterted is too high %s", "Too high");
+}
+
+	else{
+	System.out.printf("backOff");
+}
+
+
+
+}
+}

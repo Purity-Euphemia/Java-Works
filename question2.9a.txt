@@ -1,0 +1,5 @@
+29) (a) False why because multiplicaion and division has a higher precedence than addition.
+
+	(b) True
+	(c) false why because divison has higher precedence than addition.
+	(d) false why because name@emial.com,x% doesn't begins with digit and also doesn't contains a space.
